@@ -1,3 +1,6 @@
 flask
 sqlalchemy
 flask_wtf
+django
+gunicorn
+django-heroku
