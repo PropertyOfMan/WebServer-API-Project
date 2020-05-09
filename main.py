@@ -28,4 +28,4 @@ def random():
 if __name__ == '__main__':
     db_session.global_init("db/my_db.sqlite")
     session = db_session.create_session()
-    app.run(host='localhost', port=80)
+    app.run(host='localhost', port=80, debug=True)
